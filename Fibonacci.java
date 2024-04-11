@@ -9,15 +9,15 @@ public class Fibonacci {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Informe o valor do limite:");
 		int limite = sc.nextInt();
-		int num1=0;
-		int num2=1;
+		int valor1=0;
+		int valor2=1;
 		int cont, res;
-		System.out.println(num2);
+		System.out.println(valor2);
 				for (cont= 2; cont <= limite; cont++) {
-					res= num1 + num2;
+					res= valor1 + valor2;
 					System.out.println(res);
-					num1 = num2;
-					num2 = res;
+					valor1 = valor2;
+					valor2 = res;
 				}
 
 	}
